@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html land="en" dir= "ltr">
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza Selector</title>
+    </head>
+    <body>
+      <div class="container">
+      <h1>PIZZA SELECTOR</h1>
+        <p>Find out how much your pizza will cost based on the size and your list of ingredients.</p>
+      <h2>Select your size and all the ingredients you'd like.<h2>
+          <form id="size">
+          </form>
+          <form id="ingredients">
+            <div class="form-ingredients">
+              <p>This is what I would like on my pizza:</p>
+              <input type="checkbox" name="pizza-ingredients" value="sausage">Sausage<br>
+              <input type="checkbox" name="pizza-ingredients" value="pepperoni">Pepperoni<br>
+              <input type="checkbox" name="pizza-ingredients" value="tomato">Tomato<br>
+              <input type="checkbox" name="pizza-ingredients" value="onion">Onion<br>
+            </div>
+          <button type="submit">Submit Ingregients</button>
+          </form>
+          <span id="ingredient-responses">
+            <p><b>You want the following ingredients on your pizza:</b></p>
+          </span>
+          <span id="pizza-size">
+        <p><b>You'd like this size for your pizza:</b></p>
+      </span>
+        <p>Your total cost for the pizza is:</p>
+      </div>
+    </body>
+</html>
